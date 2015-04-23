@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClaimClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="claimIdLabelText" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Ваша заявка успешно зарегистрирована под номером </Value>
+    </Setting>
+    <Setting Name="noClaim" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">К сожалению, в системе нет информации о заявке №</Value>
+    </Setting>
+    <Setting Name="claimInfo" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ИСТОРИЯ ЗАЯВКИ №</Value>
+    </Setting>
+    <Setting Name="serverNotFound" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">К сожалению, сервис временно недоступен</Value>
+    </Setting>
+    <Setting Name="formatException" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Неверный формат введенных данных</Value>
+    </Setting>
+    <Setting Name="serverError" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Внутренняя ошибка сервиса</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

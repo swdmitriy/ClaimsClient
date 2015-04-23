@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:1101/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ClaimsSystem" />
+  <xs:element name="addClaim">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ClaimsSystem" minOccurs="0" name="citizen" nillable="true" type="q1:Citizen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addClaimResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ClaimsSystem" minOccurs="0" name="addClaimResult" nillable="true" type="q2:ClaimId" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getClaimLifeCycle">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="claimId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getClaimLifeCycleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ClaimsSystem" minOccurs="0" name="getClaimLifeCycleResult" nillable="true" type="q3:ClaimLifeCycle" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getClaimList">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getClaimListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ClaimsSystem" minOccurs="0" name="getClaimListResult" nillable="true" type="q4:ClaimList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,27 @@
+﻿.addClaimHeader{    
+    background-color: #d1ecfa;
+    font-size: large;
+    color: #000000;
+    font-family: Tahoma;
+    height: 40px;
+    width: 600px;
+}
+.infoHeader{    
+    background-color: #9ddbfb;
+    font-size: large;
+    color: #000000;
+    font-family: Tahoma;
+    height: 40px;
+    width: 600px;
+}
+.listHeader{
+    background-color: #73cbf8;
+    font-size: large;
+    color: #000000;
+    font-family: Tahoma;
+    height: 40px;
+    width: 600px;
+}
+.anchor_div{  
+    display: block;
+}
